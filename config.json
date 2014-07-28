@@ -170,6 +170,64 @@
             "projection": "EPSG:102100",
             "layers": "0",
             "type": "REST"
+        }, {
+            "id": "aay",
+            "name": "Probability of High Shoreline Loss",
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:ProbSLC_conus",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CUtFZvT"
+        }, {
+            "id": "aaz",
+            "name": "Long-term shoreline change rates",
+            "url": "",
+            "layers": ""
+        }, {
+            "id": "aba",
+            "name": "Short-term shoreline change rates",
+            "url": "",
+            "layers": ""
+        }, {
+            "id": "abb",
+            "name": "Elevation of Dune Crest",
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1394540727188",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CCENsQT"
+        }, {
+            "id": "abc",
+            "name": "Elevation of Dune Toe",
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1394540940323",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CCER1Xg"
+        }, {
+            "id": "abd",
+            "name": "CAT3 Hurricane Prob. of Collision", 
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1394633107610",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CCNXDS5"
+        }, {
+            "id": "abe",
+            "name": "CAT3 Hurricane Prob. of Overwash", 
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1394814655647",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CD5ZUvX"
+        }, {
+            "id": "abf",
+            "name": "CAT3 Hurricane Prob. of Inundation", 
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1394832182359",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CD7wRHj"
+        }, {
+            "id": "abg",
+            "name": "CAT3 Hurricane Mean Water Levels", 
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1395148939358",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CDAzqt6"
+        }, {
+            "id": "abh",
+            "name": "CAT3 Hurricane Extreme Water Levels", 
+            "url": "http://marine.usgs.gov/coastalchangehazardsportal/geoserver/proxied/wms",
+            "layers": "proxied:Erosion_Hazards_1395151999519",
+            "sld": "http://marine.usgs.gov/coastalchangehazardsportal/data/sld/CDARuQk"
         }
     ],
     "groups": [{
@@ -179,11 +237,11 @@
         "subGroups": [{
             "id": "g_a_a",
             "name": "Climate Stressors",
-            "layers": [ "aag", "aac", "aad", "aae", "aaf", "aab", "aax", "aaw" ]
+            "layers": [ "aag", "aac", "aad", "aae", "aaf", "aab", "aax", "aaw", "aay", "abd", "abe", "abf", "abg", "abh" ]
         }, {
             "id": "g_a_b",
             "name": "Assets Impacted",
-            "layers": [ "aak", "aam", "aal", "aah", "aai", "aaj", "aaq", "aar", "aas", "aat", "aau", "aav" ]
+            "layers": [ "aak", "aam", "aal", "aah", "aai", "aaj", "aaq", "aar", "aas", "aat", "aau", "aav", "abb", "abc" ]
         }]
     }, {
         "id": "g_b",
