@@ -37,7 +37,10 @@
   }, {
     "id": "aab",
     "name": "Inundation from Sea Level Rise (6ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_6ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_6ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_6ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
@@ -49,7 +52,10 @@
   }, {
     "id": "aac",
     "name": "Inundation from Sea Level Rise (2ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_2ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_2ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_2ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
@@ -61,7 +67,10 @@
   }, {
     "id": "aad",
     "name": "Inundation from Sea Level Rise (3ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_3ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_3ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_3ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
@@ -73,7 +82,10 @@
   }, {
     "id": "aae",
     "name": "Inundation from Sea Level Rise (4ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_4ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_4ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_4ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
@@ -85,7 +97,10 @@
   }, {
     "id": "aaf",
     "name": "Inundation from Sea Level Rise (5ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_5ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_5ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_5ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
@@ -97,7 +112,10 @@
   }, {
     "id": "aag",
     "name": "Inundation from Sea Level Rise (1ft)",
-    "url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_1ft/MapServer/WMSServer",
+    "old-url": "http://coast.noaa.gov/arcgis/services/dc_slr/slr_1ft/MapServer/WMSServer",
+    "url": "http://www.coast.noaa.gov/arcgis/rest/services/dc_slr/slr_1ft/MapServer/tile/${z}/${y}/${x}",
+    "type" : "TILE",
+    "maxZoom" : 15,
     "projection": "EPSG:3857",
     "layers": "0",
     "info": {
